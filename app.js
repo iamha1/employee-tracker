@@ -107,7 +107,7 @@ await inquirer
                 template = render(allEmployee);
                 fs.writeFile(outputPath, template, err => {
                     if(err) {
-                        throw errz
+                        throw err
                     }
                     }
                 )
