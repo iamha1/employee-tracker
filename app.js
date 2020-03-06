@@ -19,7 +19,7 @@ const employeeQuestions = [
     },
     {
         type: "input",
-        message: "What is yor ID?",
+        message: "What is your ID?",
         name: "id"
     },
     {
@@ -63,7 +63,7 @@ const engineerQuestions = [
 const newTeamMemberQuestions = [
        {
         type: "list",
-        message: "Would you like to add more team member?",
+        message: "Would you like to add more team members?",
         name: "newTeamMember",
         choices:["yes", "no"]
        }
